@@ -1,47 +1,68 @@
-# Teste para vaga de front-end na Gendo/SuperAgendador
-Este repositório tem como fim testar os candidatos para vaga de front-end developer na empresa [Gendo](https://gendo.com.br).
-> Para esta vaga buscamos alguém apaixonado por HTML, CSS, JavaScript e atento aos detalhes!
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Available Scripts
 
-## Instruções Básicas
-1. Faça um fork deste repositório
-2. Implemente o HTML e CSS de forma que fique fiel ao layout
-3. Atenção com espaçamentos e tamanhos de fonte
-4. Qualquer contribuição para melhorar o resultado será bem vinda!
-5. O usuário do GitHub utilizado no exemplo pode ser qualquer um de sua escolha
-6. Ao finalizar, atualize o README.md no seu repositório com as instruções para instalar e executar sua entrega
+In the project directory, you can run:
 
-## Desafio (opcional para Junior), a página deve:
-1. Carregar os dados de forma dinâmica utilizando a [API do GitHub](https://developer.github.com/v3/)
-2. Carregar os repositórios do usuário inicialmente
-3. Carregar os favoritos do usuário ao acessar a tab **Starred**
-4. Fazer uma busca ao digitar e fazer o submit com "Enter"
+### `npm start`
 
-## O que esperamos no teste
-* HTML Semântico
-* CSS de fácil leitura e reutilização
-* Uso de pré-processadores CSS como Sass, Less ou Stylus
-* Uso de algum *task runner* para gerar os arquivos minificados (Grunt, Gulp, Webpack, etc.)
+Runs the app in the development mode.<br />
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-## Stack
-### Preferível
-* Utilizar Sass como pré-processador
-* Mobile First
+The page will reload if you make edits.<br />
+You will also see any lint errors in the console.
 
-### Bônus
-* AngularJS, Angular (2+), React, VueJS ou Javascript puro e organizado
-* CSS transitions
-* [BEM](https://tableless.com.br/bem-um-novo-metodo-para-seu-css/) (Block, Element Modifier) nas nomenclaturas do CSS
+### `npm test`
 
-## Material
+Launches the test runner in the interactive watch mode.<br />
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-Todo o layout está hospedado no Zeplin neste link: https://zpl.io/25q7DKo
+### `npm run build`
 
-### Como acessar o Zeplin
-1. Acesse o [link do projeto](https://zpl.io/25q7DKo)
-2. Faça Login digitando `testesuperagendador` nos campos de **usuário** e **senha**
-3. Abra o projeto **superagendador-front-end-test**
-4. Acesse as telas, clique nos elementos e veja as epecificações no lado direito da tela
+Builds the app for production to the `build` folder.<br />
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-## Envio do teste
-1. Suba o repositório no seu Github e envie o link com o assunto: **Teste Front-End** para Juliano Baladão [jbaladao@gendo.com.br](mailto:jbaladao@gendo.com.br)
+The build is minified and the filenames include the hashes.<br />
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+
+### Analyzing the Bundle Size
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+
+### Making a Progressive Web App
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+
+### Advanced Configuration
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+
+### Deployment
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+
+### `npm run build` fails to minify
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
