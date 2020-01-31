@@ -5,7 +5,7 @@ import logo from '../../assets/github-light.png';
 function Header(){
   return (
       <div className={style.header}>
-        <img src={logo} />
+        <img src={logo} alt=""/>
         <h1>Github</h1>
         <p>profiles</p>
       </div>

@@ -5,7 +5,7 @@ function Profile(){
     return (
       <div className={style.profile}>
         <section>
-          <img />
+          <img alt=""/>
           <div>
             <h1>Roger Ramos</h1>
             <p>Front End Dev and UI Designer</p>

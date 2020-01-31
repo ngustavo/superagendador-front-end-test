@@ -1,0 +1,28 @@
+
+.container
+  display: flex
+  margin-top: 19px
+  border-bottom: 2px solid var(--pale-grey)
+
+.button
+  flex: 1
+  display: flex
+  align-items: center
+  justify-content: center
+  height: 57px
+  font-size: 18px
+  color: var(--slate-grey-two)
+  
+  &__active
+    @extend .button
+    font-weight: bold
+    color: var(--tab-button-black)
+    border-bottom: 5px solid var(--rusty-orange)
+
+.count
+  font-size: 14px
+  font-weight: bold
+  color: var(--slate-grey-two)
+  background: var(--tag-grey)
+  padding: 0 8px
+  border-radius: 13px
